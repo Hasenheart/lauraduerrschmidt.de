@@ -1,12 +1,12 @@
 @font-face {
-  font-family: garamond;
-  src: url("./fonts/EBGaramond12-Regular.otf"), format("opentype");
+  font-family: "EB Garamond";
+  src: url("fonts/EBGaramond12-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: garamond;
+  font-family: "EB Garamond";
   font-style: italic;
-  src: url("./fonts/EBGaramond12-Italic.otf"), format("opentype");
+  src: url("fonts/EBGaramond12-Italic.otf") format("opentype");
 }
 
 .container {
@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: garamond, "EB Garamond";
+  font-family: "EB Garamond";
   margin: 0 auto;
   max-width: 45rem;
   padding: 0 10px;
