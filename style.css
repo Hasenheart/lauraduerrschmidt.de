@@ -49,7 +49,9 @@ body {
 figure img {
   width: 100%;
   margin: 0 auto;
-  border: 2px solid darkgreen;
+  /* border: 2px solid darkgreen; */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 @media only screen and (max-width: 600px) {
